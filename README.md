@@ -52,17 +52,17 @@ pip install -r requirements.txt
 Usage
 Clone this repository:
 bash
-Kodu kopyala
-git clone https://github.com/yourusername/autode-bot.git
+
+git clone https://github.com/mxyldrm/autodebot.git
 cd autode-bot
 Create a .env file to store your environment variables such as your Telegram API key and chat ID for error notifications:
 bash
-Kodu kopyala
+
 TELEGRAM_API_KEY=your_telegram_api_key
 TELEGRAM_CHAT_ID=your_telegram_chat_id
 Run the bot:
 bash
-Kodu kopyala
+
 python auto_de_bot.py
 The bot will continuously scrape new car listings and store them in the database while removing old entries.
 
